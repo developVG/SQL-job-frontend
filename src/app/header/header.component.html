@@ -1,0 +1,23 @@
+<div id="content">
+    <div id="mainHead">
+
+        <div class="sub">
+            <a class="label"><span>Nome processo</span></a>
+            <a class="label"><span>{{nome}}</span></a>
+        </div>
+        <div class="sub">
+            <a class="label"><span>Ultimo avvio</span></a>
+            <a class="label"><span>{{run_date}} {{run_time}}</span></a>
+        </div>
+        <div class="sub">
+            <a class="label"><span>Secondi impiegati</span></a>
+            <a class="label"><span>{{durata}}</span></a>
+        </div>
+        <div class="sub">
+            <span></span>
+            <a class="label"><span><button
+                id="buttonInput" (click)="getQuery1('MEGAQUERY')" class="btn btn-primary"  (click)="clickMethod()">Avvia</button></span></a>
+        </div>
+    </div>
+
+</div>
